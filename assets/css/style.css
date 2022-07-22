@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   /* background: #ffffff; */
-  /* background:#070606; */
+  background:#000428;
   color: #898989;
   font-family: "Poppins", helvetica;
   font-size: 15px;
@@ -28,12 +28,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  color: #292929;
+  color: #f7f7f7;
   font-weight: 600;
 }
 
 h4 {
-  color: #292929;
+  color: #f7f7f7;
   font-size: 14px;
   font-weight: 600;
 }
@@ -394,7 +394,10 @@ p {
 --------------------------------------------------------------*/
 #hero {
   /* background: url("../img/home-bg.jpg") repeat scroll center center/cover; */
-  background: url("./../../images/fayy.png") repeat scroll center center/cover;
+  /* background: url("./../../images/fayy.png") repeat scroll center center/cover; */
+  background: url("./../../images/Hacker-Hero.webp") no-repeat ;
+  /* background-size: contain; */
+  background-size: cover;
   height: 100vh;
   width: 100%;
 }
@@ -494,7 +497,7 @@ p {
 #about {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
+  background: #000428;
   padding-top: 120px;
 }
 
@@ -529,7 +532,7 @@ p {
 # Services
 --------------------------------------------------------------*/
 #services {
-  background: #f7f7f7;
+  background: #000428;
   position: relative;
   padding-bottom: 80px;
 }
@@ -538,7 +541,7 @@ p {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
-  color: #292929;
+  color: #f7f7f7;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -709,7 +712,7 @@ p {
 #journal, #journal-blog {
   height: auto;
   width: 100%;
-  background: #f7f7f7;
+  background: #000428;
   padding-bottom: 60px;
   position: relative;
 }
@@ -744,7 +747,7 @@ p {
   line-height: 24px;
   margin: 0 0 13px 0;
   font-weight: 500;
-  color: #292929;
+  color: #f7f7f7;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -886,7 +889,7 @@ p {
   line-height: 24px;
   margin: 0 0 13px 0;
   font-weight: 500;
-  color: #292929;
+  color: #f7f7f7;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -982,9 +985,9 @@ blockquote {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f7f7;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  background: #333333;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 #footer .socials-media {
@@ -1444,4 +1447,20 @@ blockquote {
     display: inline-block;
     margin-right: 0;
   }
+}
+#fayyazansari{
+color: #f7f7f7;
+transition: ease 0.5s;
+}
+#fayyazansari:hover{
+color: #18d26e;
+}
+.fblink{
+  background-color: #555555;
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: 0.1s;
+}
+.fblink:hover{
+background-color: #000428;
 }
